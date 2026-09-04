@@ -297,8 +297,8 @@ export default function LandingPage() {
             </div>
 
             <div className="mt-2 flex items-center justify-center gap-2 text-xs text-[#CBD5E1]">
-              <span className="text-[#D4AF37] text-sm tracking-widest font-bold">★ ★ ★ ★ ★</span>
-              <span>Más de 5.400 familias bendecidas</span>
+              <span className="text-[#38A169]">✓</span>
+              <span>Entrega Inmediata a tu Correo • Acceso Vitalicio</span>
             </div>
           </div>
 
@@ -503,7 +503,7 @@ export default function LandingPage() {
               Todo Incluido en Tu Orden
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-[#FFFFFF] mb-4">
-              5 Libros Esenciales por Solo $6.90 USD
+              El Paquete Completo de Prosperidad Bíblica
             </h2>
             <div className="w-24 h-0.5 bg-[#D4AF37] mx-auto mb-6" />
             <p className="text-base text-[#A0AEC0]">
@@ -538,7 +538,7 @@ export default function LandingPage() {
                 </p>
                 <div className="flex flex-wrap items-center gap-4 text-xs text-[#CBD5E1]">
                   <span className="flex items-center gap-1.5 text-[#D4AF37]">
-                    ✓ Más de 180 páginas de contenido práctico
+                    ✓ Guía práctica fundamentada en principios bíblicos
                   </span>
                   <span className="flex items-center gap-1.5 text-[#D4AF37]">
                     ✓ Formato PDF digital compatible con todo dispositivo
@@ -705,78 +705,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* 7. Testimonios / Vidas Transformadas */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-8 py-20">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-[rgba(212,175,55,0.1)] border border-[#D4AF37] text-[11px] font-semibold text-[#D4AF37] uppercase tracking-[1px] mb-3">
-              Testimonios Reales
-            </div>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-[#FFFFFF] mb-4">
-              Familias que Rompieron la Escasez
-            </h2>
-            <div className="w-24 h-0.5 bg-[#D4AF37] mx-auto mb-6" />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
-            <div className="p-6 rounded-[8px] bg-[#111D42] border border-[rgba(212,175,55,0.2)] flex flex-col justify-between">
-              <div>
-                <div className="text-[#D4AF37] text-sm mb-3">★ ★ ★ ★ ★</div>
-                <p className="text-sm text-[#CBD5E1] leading-relaxed italic mb-4">
-                  &ldquo;Llevábamos 4 años pagando mínimos de tarjetas y sintiéndonos culpables. El libro de Finanzas Espirituales y el bono de oración nos dieron la claridad que ninguna asesoría bancaria nos había dado. En 6 meses eliminamos dos deudas grandes.&rdquo;
-                </p>
-              </div>
-              <div className="pt-3 border-t border-[rgba(212,175,55,0.1)] flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37] flex items-center justify-center text-xs font-bold text-[#D4AF37]">
-                  CR
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-[#FFFFFF]">Carlos & Raquel M.</div>
-                  <div className="text-[11px] text-[#A0AEC0]">Bogotá, Colombia</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-[8px] bg-[#111D42] border border-[rgba(212,175,55,0.2)] flex flex-col justify-between">
-              <div>
-                <div className="text-[#D4AF37] text-sm mb-3">★ ★ ★ ★ ★</div>
-                <p className="text-sm text-[#CBD5E1] leading-relaxed italic mb-4">
-                  &ldquo;Por solo $6.90 pensé que sería algo muy básico, pero la profundidad bíblica y los 4 bonos son oro puro. Las historias para la familia las leo todas las noches con mis hijos pequeños. Ha sido una bendición inmensa.&rdquo;
-                </p>
-              </div>
-              <div className="pt-3 border-t border-[rgba(212,175,55,0.1)] flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37] flex items-center justify-center text-xs font-bold text-[#D4AF37]">
-                  EA
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-[#FFFFFF]">Esteban Álvarez</div>
-                  <div className="text-[11px] text-[#A0AEC0]">Guadalajara, México</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-[8px] bg-[#111D42] border border-[rgba(212,175,55,0.2)] flex flex-col justify-between">
-              <div>
-                <div className="text-[#D4AF37] text-sm mb-3">★ ★ ★ ★ ★</div>
-                <p className="text-sm text-[#CBD5E1] leading-relaxed italic mb-4">
-                  &ldquo;El principio de mayordomía fiel me abrió los ojos sobre cómo administrar el negocio. Dejé de angustiarme y empecé a honrar a Dios con orden y rectitud. Hoy tenemos paz en nuestro matrimonio y finanzas en orden.&rdquo;
-                </p>
-              </div>
-              <div className="pt-3 border-t border-[rgba(212,175,55,0.1)] flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37] flex items-center justify-center text-xs font-bold text-[#D4AF37]">
-                  MS
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-[#FFFFFF]">Miriam Santos</div>
-                  <div className="text-[11px] text-[#A0AEC0]">Lima, Perú</div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        {/* 8. Sección de Oferta Principal (El Checkout Box) */}
+        {/* 7. Sección de Oferta Principal (El Checkout Box) */}
         <section id="oferta" className="max-w-4xl mx-auto px-4 sm:px-8 py-20">
           <div id="offer-box" className="p-8 sm:p-12 rounded-[12px] bg-[#111D42] border-2 border-[#D4AF37] shadow-[0_20px_60px_rgba(0,0,0,0.7)] relative text-center">
             
