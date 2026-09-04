@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="b1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#42101D" />
+      <stop offset="50%" stop-color="#2B0811" />
+      <stop offset="100%" stop-color="#160408" />
+    </linearGradient>
+    <linearGradient id="b-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFECA8" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#9E7514" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="560" rx="16" fill="#111" stroke="#333" stroke-width="4" />
+  <rect x="16" y="16" width="368" height="528" rx="8" fill="url(#b1-bg)" stroke="url(#b-gold)" stroke-width="2.5" />
+  <rect x="26" y="26" width="348" height="508" rx="4" fill="none" stroke="url(#b-gold)" stroke-width="1" stroke-dasharray="8,4" opacity="0.6" />
+  
+  <text x="200" y="110" font-family="'Cinzel', serif" font-size="34" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">CÓDIGO</text>
+  <text x="200" y="150" font-family="'Cinzel', serif" font-size="30" font-weight="800" fill="url(#b-gold)" text-anchor="middle" letter-spacing="3">DIVINO</text>
+  <text x="200" y="180" font-family="'Inter', sans-serif" font-size="13" fill="#E5CB8C" text-anchor="middle">Claves Ocultas para la Abundancia</text>
+
+  <!-- Crossed Antique Keys -->
+  <g transform="translate(200, 310) scale(1.8)">
+    <circle cx="-25" cy="-25" r="14" fill="none" stroke="url(#b-gold)" stroke-width="3" />
+    <line x1="-15" y1="-15" x2="25" y2="25" stroke="url(#b-gold)" stroke-width="4" stroke-linecap="round" />
+    <line x1="18" y1="18" x2="26" y2="12" stroke="url(#b-gold)" stroke-width="3" stroke-linecap="round" />
+    <line x1="23" y1="23" x2="31" y2="17" stroke="url(#b-gold)" stroke-width="3" stroke-linecap="round" />
+    
+    <circle cx="25" cy="-25" r="14" fill="none" stroke="url(#b-gold)" stroke-width="3" />
+    <line x1="15" y1="-15" x2="-25" y2="25" stroke="url(#b-gold)" stroke-width="4" stroke-linecap="round" />
+    <line x1="-18" y1="18" x2="-26" y2="12" stroke="url(#b-gold)" stroke-width="3" stroke-linecap="round" />
+    <line x1="-23" y1="23" x2="-31" y2="17" stroke="url(#b-gold)" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <rect x="80" y="460" width="240" height="34" rx="17" fill="#0F0306" stroke="url(#b-gold)" stroke-width="1.5" />
+  <text x="200" y="482" font-family="'Cinzel', serif" font-size="12" font-weight="bold" fill="url(#b-gold)" text-anchor="middle" letter-spacing="2">VALOR: 9.00 USD • HOY GRATIS</text>
+</svg>

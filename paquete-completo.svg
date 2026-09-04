@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="100%" height="100%">
+  <defs>
+    <filter id="b-shadow" x="-20%" y="-10%" width="140%" height="140%">
+      <feDropShadow dx="15" dy="20" stdDeviation="20" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040916" />
+      <stop offset="50%" stop-color="#0a1532" />
+      <stop offset="100%" stop-color="#020610" />
+    </linearGradient>
+    <linearGradient id="gold-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B38728" />
+      <stop offset="20%" stop-color="#FBF5B7" />
+      <stop offset="50%" stop-color="#DAA520" />
+      <stop offset="80%" stop-color="#FBF5B7" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <linearGradient id="gold-txt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F3E5AB" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bg-grad)" />
+  
+  <!-- Subtle ambient glow -->
+  <circle cx="512" cy="450" r="350" fill="#D4AF37" opacity="0.06" filter="blur(60px)" />
+
+  <!-- Top Banner: PAQUETE COMPLETO DE PROSPERIDAD TOTAL -->
+  <rect x="0" y="0" width="1024" height="70" fill="url(#gold-bar)" />
+  <text x="512" y="47" font-family="'Cinzel', serif" font-size="30" font-weight="900" fill="#060B19" text-anchor="middle" letter-spacing="3">
+    PAQUETE COMPLETO DE PROSPERIDAD TOTAL
+  </text>
+
+  <!-- 5 Gold Stars on Top Right -->
+  <g transform="translate(540, 190) scale(1.1)">
+    <g transform="translate(0, 0)"><path d="M15,0 L19,10 L30,11 L22,19 L25,30 L15,24 L5,30 L8,19 L0,11 L11,10 Z" fill="url(#gold-bar)" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))" /></g>
+    <g transform="translate(60, 0)"><path d="M15,0 L19,10 L30,11 L22,19 L25,30 L15,24 L5,30 L8,19 L0,11 L11,10 Z" fill="url(#gold-bar)" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))" /></g>
+    <g transform="translate(120, 0)"><path d="M15,0 L19,10 L30,11 L22,19 L25,30 L15,24 L5,30 L8,19 L0,11 L11,10 Z" fill="url(#gold-bar)" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))" /></g>
+    <g transform="translate(180, 0)"><path d="M15,0 L19,10 L30,11 L22,19 L25,30 L15,24 L5,30 L8,19 L0,11 L11,10 Z" fill="url(#gold-bar)" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))" /></g>
+    <g transform="translate(240, 0)"><path d="M15,0 L19,10 L30,11 L22,19 L25,30 L15,24 L5,30 L8,19 L0,11 L11,10 Z" fill="url(#gold-bar)" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))" /></g>
+  </g>
+
+  <!-- Main Hardcover Book (Left) -->
+  <g transform="translate(60, 110) scale(0.72)" filter="url(#b-shadow)">
+    <!-- Spine -->
+    <path d="M50,30 L100,45 L100,750 L50,735 Z" fill="#050d22" stroke="#D4AF37" stroke-width="1.5" />
+    <g transform="translate(78, 420) rotate(-90)">
+      <text font-family="'Cinzel', serif" font-size="20" font-weight="bold" fill="url(#gold-bar)" letter-spacing="4">
+        FINANZAS ESPIRITUALES
+      </text>
+    </g>
+
+    <!-- Front Cover -->
+    <rect x="100" y="45" width="460" height="705" fill="#09132c" stroke="#D4AF37" stroke-width="2.5" rx="2" />
+    <rect x="120" y="65" width="420" height="665" fill="none" stroke="url(#gold-bar)" stroke-width="2" />
+    <rect x="128" y="73" width="404" height="649" fill="none" stroke="url(#gold-bar)" stroke-width="0.8" stroke-dasharray="8,3" />
+    
+    <!-- Cover Elements -->
+    <text x="330" y="160" font-family="'Cinzel', serif" font-size="34" font-weight="900" fill="url(#gold-bar)" text-anchor="middle" letter-spacing="2">
+      FINANZAS
+    </text>
+    <text x="330" y="205" font-family="'Cinzel', serif" font-size="30" font-weight="800" fill="url(#gold-bar)" text-anchor="middle" letter-spacing="3">
+      ESPIRITUALES
+    </text>
+    <text x="330" y="245" font-family="'Inter', sans-serif" font-size="12" fill="#F3E5AB" text-anchor="middle">
+      Principios bíblicos para una
+    </text>
+    <text x="330" y="265" font-family="'Inter', sans-serif" font-size="12" fill="#F3E5AB" text-anchor="middle">
+      vida financiera abundante
+    </text>
+
+    <!-- Icons Menorah, Tree, Cross -->
+    <g transform="translate(330, 335)">
+      <!-- Menorah -->
+      <path d="M-80,25 C-80,45 -60,50 -50,50 M-70,30 C-70,45 -55,48 -50,48 M-60,35 C-60,45 -55,47 -50,47 M-50,20 L-50,60 M-30,60 L-70,60" stroke="url(#gold-bar)" stroke-width="2" fill="none" />
+      <!-- Tree of life -->
+      <circle cx="0" cy="35" r="26" fill="none" stroke="url(#gold-bar)" stroke-width="1.5" />
+      <path d="M0,20 L0,55 M-10,35 Q0,40 10,35 M-15,45 Q0,50 15,45" stroke="url(#gold-bar)" stroke-width="2" fill="none" />
+      <!-- Cross -->
+      <path d="M50,15 L50,60 M38,30 L62,30" stroke="url(#gold-bar)" stroke-width="3" stroke-linecap="square" />
+    </g>
+
+    <!-- Open Holy Scripture Scroll with Glow -->
+    <circle cx="330" cy="500" r="90" fill="#FFF6D1" opacity="0.2" filter="blur(20px)" />
+    <g transform="translate(330, 500)">
+      <path d="M-120,-45 Q-60,-65 0,-50 L0,50 Q-60,35 -120,55 Z" fill="#FFF3CD" stroke="#D4AF37" stroke-width="1.5" />
+      <path d="M0,-50 Q60,-65 120,-45 L120,55 Q60,35 0,50 Z" fill="#FFF8DC" stroke="#D4AF37" stroke-width="1.5" />
+      <!-- Scroll handles -->
+      <rect x="-135" y="-55" width="15" height="115" rx="4" fill="url(#gold-bar)" />
+      <rect x="120" y="-55" width="15" height="115" rx="4" fill="url(#gold-bar)" />
+    </g>
+
+    <rect x="200" y="635" width="260" height="30" rx="15" fill="#040916" stroke="url(#gold-bar)" stroke-width="1.5" />
+    <text x="330" y="655" font-family="'Cinzel', serif" font-size="12" font-weight="bold" fill="url(#gold-bar)" text-anchor="middle" letter-spacing="2">
+      LIBRO PRINCIPAL
+    </text>
+  </g>
+
+  <!-- Middle Banner: TUS BONOS GRATIS -->
+  <rect x="480" y="565" width="544" height="55" fill="url(#gold-bar)" />
+  <text x="752" y="602" font-family="'Cinzel', serif" font-size="24" font-weight="900" fill="#060B19" text-anchor="middle" letter-spacing="3">
+    TUS BONOS GRATIS
+  </text>
+
+  <!-- 4 Bonus Items Row (Bottom) -->
+  
+  <!-- Bono 1: CÓDIGO DIVINO (Tablet Mockup) -->
+  <g transform="translate(150, 640) scale(0.65)" filter="url(#b-shadow)">
+    <!-- Tablet Frame -->
+    <rect x="0" y="0" width="280" height="420" rx="24" fill="#1a1a1a" stroke="#404040" stroke-width="4" />
+    <rect x="15" y="15" width="250" height="390" rx="8" fill="#3B0D18" stroke="url(#gold-bar)" stroke-width="2" />
+    <rect x="25" y="25" width="230" height="370" rx="4" fill="none" stroke="url(#gold-bar)" stroke-width="1" stroke-dasharray="6,3" />
+    <!-- Title -->
+    <text x="140" y="90" font-family="'Cinzel', serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+      CÓDIGO
+    </text>
+    <text x="140" y="120" font-family="'Cinzel', serif" font-size="22" font-weight="800" fill="url(#gold-bar)" text-anchor="middle" letter-spacing="2">
+      DIVINO
+    </text>
+    <text x="140" y="145" font-family="'Inter', sans-serif" font-size="10" fill="#E2C785" text-anchor="middle">
+      - Claves Ocultas para la Abundancia -
+    </text>
+    <!-- Crossed Antique Keys -->
+    <g transform="translate(140, 240) scale(1.4)">
+      <circle cx="-25" cy="-25" r="14" fill="none" stroke="url(#gold-bar)" stroke-width="3" />
+      <line x1="-15" y1="-15" x2="25" y2="25" stroke="url(#gold-bar)" stroke-width="4" stroke-linecap="round" />
+      <line x1="18" y1="18" x2="26" y2="12" stroke="url(#gold-bar)" stroke-width="3" stroke-linecap="round" />
+      <line x1="23" y1="23" x2="31" y2="17" stroke="url(#gold-bar)" stroke-width="3" stroke-linecap="round" />
+      
+      <circle cx="25" cy="-25" r="14" fill="none" stroke="url(#gold-bar)" stroke-width="3" />
+      <line x1="15" y1="-15" x2="-25" y2="25" stroke="url(#gold-bar)" stroke-width="4" stroke-linecap="round" />
+      <line x1="-18" y1="18" x2="-26" y2="12" stroke="url(#gold-bar)" stroke-width="3" stroke-linecap="round" />
+      <line x1="-23" y1="23" x2="-31" y2="17" stroke="url(#gold-bar)" stroke-width="3" stroke-linecap="round" />
+    </g>
+    <text x="140" y="375" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="url(#gold-bar)" text-anchor="middle">
+      BONO #1 • DIGITAL
+    </text>
+  </g>
+
+  <!-- Bono 2: 30 DÍAS DE ORACIÓN -->
+  <g transform="translate(365, 640) scale(0.65)" filter="url(#b-shadow)">
+    <rect x="0" y="0" width="270" height="420" rx="6" fill="#C18845" stroke="#875518" stroke-width="2" />
+    <rect x="12" y="12" width="246" height="396" fill="none" stroke="#FFF1C2" stroke-width="1.5" />
+    <!-- Desert sun & altar motif -->
+    <circle cx="135" cy="260" r="65" fill="#FFE8A3" opacity="0.6" />
+    <path d="M0,280 Q135,240 270,280 L270,420 L0,420 Z" fill="#9C6126" />
+    <path d="M0,320 Q135,290 270,320 L270,420 L0,420 Z" fill="#6D3F12" />
+    <!-- Altar -->
+    <rect x="100" y="290" width="70" height="45" rx="2" fill="#4A2807" stroke="#FFE8A3" stroke-width="1.5" />
+    <path d="M90,290 L180,290 L170,280 L100,280 Z" fill="#FFE8A3" />
+    <!-- Fire flame -->
+    <path d="M135,250 Q145,268 135,280 Q125,268 135,250 Z" fill="#FFD700" />
+    <!-- Titles -->
+    <text x="135" y="70" font-family="'Cinzel', serif" font-size="28" font-weight="900" fill="#301B05" text-anchor="middle">
+      30 DÍAS
+    </text>
+    <text x="135" y="92" font-family="'Cinzel', serif" font-size="14" font-weight="bold" fill="#301B05" text-anchor="middle">
+      DE
+    </text>
+    <text x="135" y="125" font-family="'Cinzel', serif" font-size="24" font-weight="900" fill="#301B05" text-anchor="middle">
+      ORACIÓN
+    </text>
+    <text x="135" y="150" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" fill="#301B05" text-anchor="middle">
+      CON VERSÍCULOS DEL
+    </text>
+    <text x="135" y="166" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#301B05" text-anchor="middle">
+      PENTATEUCO
+    </text>
+    <text x="135" y="390" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#FFE8A3" text-anchor="middle">
+      BONO #2 • DEVOCIONAL
+    </text>
+  </g>
+
+  <!-- Bono 3: DEVOCIONALES DE PODER -->
+  <g transform="translate(575, 640) scale(0.65)" filter="url(#b-shadow)">
+    <rect x="0" y="0" width="270" height="420" rx="6" fill="#16323B" stroke="#0C2026" stroke-width="2" />
+    <rect x="12" y="12" width="246" height="396" fill="none" stroke="#6DE0D6" stroke-width="1.5" opacity="0.7" />
+    <!-- Star & Mountains -->
+    <g transform="translate(135, 185)">
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
+      <path d="M0,-25 L0,25 M-25,0 L25,0 M-15,-15 L15,15 M-15,15 L15,-15" stroke="#B8FFF8" stroke-width="1.5" />
+    </g>
+    <!-- Geometric mountain peaks -->
+    <path d="M30,350 L90,260 L150,350 Z" fill="#0D1F24" stroke="#3FA69C" stroke-width="1" />
+    <path d="M110,350 L170,240 L230,350 Z" fill="#1B3F48" stroke="#6DE0D6" stroke-width="1" />
+    <path d="M70,350 L140,220 L210,350 Z" fill="#2A5964" stroke="#B8FFF8" stroke-width="1.5" />
+    <!-- Snow caps -->
+    <path d="M140,220 L125,245 L140,240 L155,245 Z" fill="#FFFFFF" />
+    <!-- Titles -->
+    <text x="135" y="75" font-family="'Cinzel', serif" font-size="20" font-weight="bold" fill="#B8FFF8" text-anchor="middle" letter-spacing="1">
+      DEVOCIONALES
+    </text>
+    <text x="135" y="105" font-family="'Cinzel', serif" font-size="18" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+      - DE PODER -
+    </text>
+    <text x="135" y="130" font-family="'Inter', sans-serif" font-size="11" fill="#84DED5" text-anchor="middle">
+      30 Días para Profundizar
+    </text>
+    <text x="135" y="390" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#6DE0D6" text-anchor="middle">
+      BONO #3 • GUÍA DIARIA
+    </text>
+  </g>
+
+  <!-- Bono 4: HISTÓRIAS BÍBLICAS PARA TODA LA FAMILIA -->
+  <g transform="translate(785, 640) scale(0.65)" filter="url(#b-shadow)">
+    <rect x="0" y="0" width="270" height="420" rx="6" fill="#FFEBB7" stroke="#D8BC79" stroke-width="2" />
+    <rect x="12" y="12" width="246" height="396" fill="none" stroke="#694E1B" stroke-width="1.5" />
+    <!-- Titles -->
+    <text x="135" y="65" font-family="'Cinzel', serif" font-size="22" font-weight="900" fill="#224446" text-anchor="middle" letter-spacing="1">
+      HISTORIAS
+    </text>
+    <text x="135" y="95" font-family="'Cinzel', serif" font-size="24" font-weight="900" fill="#1B3739" text-anchor="middle" letter-spacing="1">
+      BÍBLICAS
+    </text>
+    <text x="135" y="120" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#47686B" text-anchor="middle">
+      PARA TODA LA FAMILIA
+    </text>
+
+    <!-- Rainbow -->
+    <g transform="translate(135, 230)">
+      <path d="M-90,0 A90,90 0 0,1 90,0" fill="none" stroke="#E55959" stroke-width="6" />
+      <path d="M-84,0 A84,84 0 0,1 84,0" fill="none" stroke="#F5A623" stroke-width="6" />
+      <path d="M-78,0 A78,78 0 0,1 78,0" fill="none" stroke="#F8E71C" stroke-width="6" />
+      <path d="M-72,0 A72,72 0 0,1 72,0" fill="none" stroke="#7ED321" stroke-width="6" />
+      <path d="M-66,0 A66,66 0 0,1 66,0" fill="none" stroke="#50E3C2" stroke-width="6" />
+      <path d="M-60,0 A60,60 0 0,1 60,0" fill="none" stroke="#4A90E2" stroke-width="6" />
+    </g>
+
+    <!-- Family Reading Bible Silhouette / Illustration -->
+    <g transform="translate(135, 290)">
+      <ellipse cx="0" cy="60" rx="110" ry="30" fill="#A4D89A" />
+      <!-- Father, Mother, Child -->
+      <circle cx="-40" cy="-10" r="16" fill="#42647E" />
+      <rect x="-55" y="6" width="30" height="35" rx="10" fill="#42647E" />
+      <circle cx="40" cy="-8" r="15" fill="#944B57" />
+      <rect x="25" y="8" width="30" height="33" rx="10" fill="#944B57" />
+      <circle cx="0" cy="5" r="12" fill="#E5B263" />
+      <rect x="-12" y="18" width="24" height="25" rx="6" fill="#E5B263" />
+      <!-- Bible on lap -->
+      <path d="M-20,32 L0,36 L20,32 L15,44 L0,48 L-15,44 Z" fill="#1B3739" stroke="#FFF" stroke-width="1" />
+    </g>
+
+    <text x="135" y="390" font-family="'Inter', sans-serif" font-size="11" font-weight="bold" fill="#304C4F" text-anchor="middle">
+      BONO #4 • FAMILIAR
+    </text>
+  </g>
+</svg>
