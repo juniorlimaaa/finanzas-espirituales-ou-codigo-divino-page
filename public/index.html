@@ -6,12 +6,23 @@
   <title>Finanzas Espirituales - Prosperidad Bíblica | Paquete Completo</title>
   <meta name="description" content="Descubre el paquete completo de 5 libros de Finanzas Espirituales y Código Divino para transformar tu economía con principios bíblicos por solo $6.90 USD." />
   
-  <!-- Google Fonts: Cinzel (Títulos Nobres) e Inter (Textos) -->
+  <!-- Otimizações de Conexão Rápida (Preconnect & DNS-Prefetch para Meta Ads) -->
+  <link rel="preconnect" href="https://pay.hotmart.com" crossorigin />
+  <link rel="dns-prefetch" href="https://pay.hotmart.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
 
-  <!-- Tailwind CSS via CDN -->
+  <!-- Precarregamento prioritário da imagem principal (Hero LCP) -->
+  <link rel="preload" as="image" href="paquete-completo.svg" type="image/svg+xml" fetchpriority="high" />
+
+  <!-- Google Fonts: Apenas os pesos essenciais com font-display: swap -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN com cache local -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -37,10 +48,6 @@
       }
     };
   </script>
-
-  <!-- GSAP e ScrollTrigger via CDN -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <style>
     body {
@@ -118,7 +125,7 @@
           <div class="absolute inset-0 -m-6 bg-gradient-to-tr from-gold/30 via-navy-card/60 to-gold/20 rounded-2xl blur-3xl group-hover:scale-105 transition-transform duration-700"></div>
           
           <div class="relative z-10 rounded-[10px] overflow-hidden border-2 border-gold bg-[#040916] shadow-[0_20px_60px_rgba(0,0,0,0.9)] p-2.5 transition-transform duration-500 hover:-translate-y-1">
-            <img src="paquete-completo.svg" alt="Paquete Completo de Prosperidad Total" class="w-full h-auto object-cover rounded-[6px]" />
+            <img src="paquete-completo.svg" alt="Paquete Completo de Prosperidad Total" class="w-full h-auto object-cover rounded-[6px]" fetchpriority="high" loading="eager" decoding="async" />
 
             <div class="mt-2 py-2 px-3 bg-navy-card border-t border-gold/40 flex items-center justify-between text-xs">
               <span class="font-cinzel font-bold text-gold-light tracking-wide">PAQUETE COMPLETO (5 LIBROS)</span>
@@ -139,31 +146,31 @@
         <div class="mt-5 grid grid-cols-5 gap-2 max-w-md mx-auto w-full px-2">
           <div class="flex flex-col items-center">
             <div class="w-12 sm:w-16 h-16 sm:h-20 bg-[#060B19] rounded border border-gold overflow-hidden p-0.5 shadow">
-              <img src="finanzas-espirituales.svg" alt="Principal" class="w-full h-full object-contain" />
+              <img src="finanzas-espirituales.svg" alt="Principal" class="w-full h-full object-contain" loading="eager" decoding="async" />
             </div>
             <span class="text-[9px] sm:text-[10px] text-gold font-semibold mt-1">Principal</span>
           </div>
           <div class="flex flex-col items-center">
             <div class="w-12 sm:w-16 h-16 sm:h-20 bg-[#060B19] rounded border border-gold/50 overflow-hidden p-0.5 shadow">
-              <img src="bono-codigo-divino.svg" alt="Bono 1" class="w-full h-full object-contain" />
+              <img src="bono-codigo-divino.svg" alt="Bono 1" class="w-full h-full object-contain" loading="eager" decoding="async" />
             </div>
             <span class="text-[9px] sm:text-[10px] text-slate-400 font-medium mt-1">Bono 1</span>
           </div>
           <div class="flex flex-col items-center">
             <div class="w-12 sm:w-16 h-16 sm:h-20 bg-[#060B19] rounded border border-gold/50 overflow-hidden p-0.5 shadow">
-              <img src="bono-oracion.svg" alt="Bono 2" class="w-full h-full object-contain" />
+              <img src="bono-oracion.svg" alt="Bono 2" class="w-full h-full object-contain" loading="eager" decoding="async" />
             </div>
             <span class="text-[9px] sm:text-[10px] text-slate-400 font-medium mt-1">Bono 2</span>
           </div>
           <div class="flex flex-col items-center">
             <div class="w-12 sm:w-16 h-16 sm:h-20 bg-[#060B19] rounded border border-gold/50 overflow-hidden p-0.5 shadow">
-              <img src="bono-devocionales.svg" alt="Bono 3" class="w-full h-full object-contain" />
+              <img src="bono-devocionales.svg" alt="Bono 3" class="w-full h-full object-contain" loading="eager" decoding="async" />
             </div>
             <span class="text-[9px] sm:text-[10px] text-slate-400 font-medium mt-1">Bono 3</span>
           </div>
           <div class="flex flex-col items-center">
             <div class="w-12 sm:w-16 h-16 sm:h-20 bg-[#060B19] rounded border border-gold/50 overflow-hidden p-0.5 shadow">
-              <img src="bono-historias.svg" alt="Bono 4" class="w-full h-full object-contain" />
+              <img src="bono-historias.svg" alt="Bono 4" class="w-full h-full object-contain" loading="eager" decoding="async" />
             </div>
             <span class="text-[9px] sm:text-[10px] text-slate-400 font-medium mt-1">Bono 4</span>
           </div>
@@ -382,7 +389,7 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           <div class="md:col-span-5 flex justify-center">
             <div class="w-full max-w-[280px] p-2 bg-navy-deep rounded-[8px] border border-gold/50 shadow-2xl">
-              <img src="finanzas-espirituales.svg" alt="Finanzas Espirituales - Libro Principal" class="w-full h-auto object-contain rounded" />
+              <img src="finanzas-espirituales.svg" alt="Finanzas Espirituales - Libro Principal" class="w-full h-auto object-contain rounded" loading="lazy" decoding="async" />
             </div>
           </div>
           <div class="md:col-span-7">
@@ -421,7 +428,7 @@
         <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
           <div>
             <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
-              <img src="bono-codigo-divino.svg" alt="Bono 1 - Código Divino" class="w-full h-full object-contain" />
+              <img src="bono-codigo-divino.svg" alt="Bono 1 - Código Divino" class="w-full h-full object-contain" loading="lazy" decoding="async" />
             </div>
             <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #1 • EDICIÓN DIGITAL</div>
             <h4 class="font-cinzel text-lg font-bold text-white mb-2">Código Divino: Claves Ocultas para la Abundancia</h4>
@@ -436,7 +443,7 @@
         <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
           <div>
             <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
-              <img src="bono-oracion.svg" alt="Bono 2 - 30 Días de Oración" class="w-full h-full object-contain" />
+              <img src="bono-oracion.svg" alt="Bono 2 - 30 Días de Oración" class="w-full h-full object-contain" loading="lazy" decoding="async" />
             </div>
             <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #2 • DEVOCIONAL</div>
             <h4 class="font-cinzel text-lg font-bold text-white mb-2">30 Días de Oración con Versículos del Pentateuco</h4>
@@ -451,7 +458,7 @@
         <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
           <div>
             <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
-              <img src="bono-devocionales.svg" alt="Bono 3 - Devocionales de Poder" class="w-full h-full object-contain" />
+              <img src="bono-devocionales.svg" alt="Bono 3 - Devocionales de Poder" class="w-full h-full object-contain" loading="lazy" decoding="async" />
             </div>
             <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #3 • CRECIMIENTO DIARIO</div>
             <h4 class="font-cinzel text-lg font-bold text-white mb-2">Devocionales de Poder: 30 Días para Profundizar</h4>
@@ -466,7 +473,7 @@
         <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
           <div>
             <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
-              <img src="bono-historias.svg" alt="Bono 4 - Historias Bíblicas" class="w-full h-full object-contain" />
+              <img src="bono-historias.svg" alt="Bono 4 - Historias Bíblicas" class="w-full h-full object-contain" loading="lazy" decoding="async" />
             </div>
             <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #4 • LECTURA FAMILIAR</div>
             <h4 class="font-cinzel text-lg font-bold text-white mb-2">Historias Bíblicas para Toda la Familia</h4>
@@ -725,9 +732,15 @@
       document.getElementById('checkout-form-view').classList.add('hidden');
       document.getElementById('checkout-success-view').classList.remove('hidden');
     }
+  </script>
 
+  <!-- GSAP e ScrollTrigger carregados de forma assíncrona (Sem travar a tela) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <script>
     // GSAP ScrollTrigger Animations
-    window.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('load', () => {
       if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
         gsap.registerPlugin(ScrollTrigger);
         gsap.from('#hero-badge', { opacity: 0, y: -20, duration: 0.8, ease: 'power2.out' });

@@ -1,0 +1,77 @@
+# ==============================================================================
+# OTIMIZAÇÃO DE ALTA PERFORMANCE PARA HOSTINGER (META ADS / GOOGLE ADS)
+# ==============================================================================
+
+# 1. ATIVAR COMPRESSÃO GZIP / BROTLI (Reduz o tamanho em até 75%)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE font/woff
+  AddOutputFilterByType DEFLATE font/woff2
+</IfModule>
+
+# 2. CACHE INTELIGENTE NO NAVEGADOR DO VISITANTE
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # Imagens e SVGs (1 ano de cache - carregamento imediato)
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Fontes (1 ano de cache)
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+
+  # Estilos e Scripts (1 mês)
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+
+  # HTML (1 hora - atualizações rápidas mantendo velocidade no celular)
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# 3. HEADERS DE DESEMPENHO E SEGURANÇA
+<IfModule mod_headers.c>
+  # Manter conexões ativas sem renegociação SSL
+  Header set Connection keep-alive
+
+  # Cache-Control específico para imagens e recursos estáticos
+  <FilesMatch "\.(svg|png|jpg|jpeg|webp|ico|woff|woff2|ttf)$">
+    Header set Cache-Control "max-age=31536000, public, immutable"
+  </FilesMatch>
+
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </FilesMatch>
+
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=3600, must-revalidate"
+  </FilesMatch>
+
+  # Segurança
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 4. UTF-8 COMO PADRÃO
+AddDefaultCharset UTF-8

@@ -1,5 +1,20 @@
 import type {Metadata} from 'next';
+import { Cinzel, Inter } from 'next/font/google';
 import './globals.css';
+
+const cinzel = Cinzel({
+  subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  variable: '--font-cinzel',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Finanzas Espirituales - Prosperidad Bíblica | Paquete Completo',
@@ -18,14 +33,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="es" suppressHydrationWarning>
+    <html lang="es" className={`${cinzel.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="preconnect" href="https://pay.hotmart.com" />
+        <link rel="dns-prefetch" href="https://pay.hotmart.com" />
       </head>
       <body suppressHydrationWarning className="bg-[#060B19] text-slate-100 font-sans antialiased selection:bg-[#D4AF37] selection:text-[#060B19]">
         {children}
