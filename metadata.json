@@ -1,0 +1,6 @@
+{
+  "name": "Finanzas Espirituales - Prosperidad Bíblica",
+  "description": "Página de venta de alta conversión para el paquete completo de 5 libros de Finanzas Espirituales y Código Divino basados en principios bíblicos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finanzas Espirituales - Prosperidad Bíblica | Paquete Completo</title>
+  <meta name="description" content="Descubre el paquete completo de 5 libros de Finanzas Espirituales y Código Divino para transformar tu economía con principios bíblicos por solo .90 USD." />
+  
+  <!-- Google Fonts: Cinzel (Títulos Nobres) e Inter (Textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              deep: '#060B19',
+              dark: '#0B132B',
+              card: '#111D42',
+            },
+            gold: {
+              DEFAULT: '#D4AF37',
+              light: '#F3E5AB',
+              dark: '#AA820A',
+            }
+          },
+          fontFamily: {
+            cinzel: ['Cinzel', 'serif', 'Times New Roman'],
+            inter: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- GSAP e ScrollTrigger via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #060B19;
+      color: #F8FAFC;
+    }
+    .font-cinzel {
+      font-family: 'Cinzel', serif, 'Times New Roman';
+    }
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFFFFF 0%, #F3E5AB 50%, #D4AF37 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gold-btn-gradient {
+      background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #AA820A 100%);
+    }
+    .gold-btn-gradient:hover {
+      background: linear-gradient(135deg, #E5C158 0%, #FFF2C6 50%, #BD941B 100%);
+    }
+  </style>
+</head>
+<body class="bg-navy-deep text-slate-100 antialiased selection:bg-gold selection:text-navy-deep overflow-x-hidden relative">
+
+  <!-- Ambient light blobs -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[700px] h-[500px] bg-gold/10 rounded-full blur-[140px]"></div>
+    <div class="absolute top-[35%] left-[-10%] w-[500px] h-[500px] bg-navy-card/80 rounded-full blur-[120px]"></div>
+    <div class="absolute bottom-[20%] right-[-10%] w-[600px] h-[600px] bg-gold/8 rounded-full blur-[160px]"></div>
+  </div>
+
+  <!-- 1. Header Fijo Minimalista -->
+  <header id="header" class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-navy-deep/90 border-b border-gold/20 transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-[4px] bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center shadow-[0_0_15px_rgba(212,175,55,0.3)] group-hover:scale-105 transition-transform">
+          <svg class="w-6 h-6 text-navy-deep" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11 2h2v7h7v2h-7v11h-2v-11H4V9h7V2z"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-cinzel font-bold tracking-[2px] text-lg sm:text-xl text-gold">FINANZAS ESPIRITUALES</span>
+          <p class="text-[10px] text-slate-400 font-sans tracking-widest uppercase -mt-1 hidden sm:block">Paquete Completo de Prosperidad Bíblica</p>
+        </div>
+      </a>
+      
+      <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" id="header-cta-btn" class="px-5 py-2 sm:px-6 sm:py-2.5 rounded-[4px] font-sans font-extrabold text-xs sm:text-sm tracking-wider uppercase text-navy-deep gold-btn-gradient shadow-[0_4px_15px_rgba(212,175,55,0.25)] hover:shadow-[0_8px_25px_rgba(212,175,55,0.4)] active:scale-95 transition-all duration-300">
+        QUIERO ENTENDER LA BIBLIA - COMPRAR AHORA
+      </a>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-28 sm:pt-32">
+    
+    <!-- 2. Dobra Principal (Hero) -->
+    <section id="hero" class="max-w-6xl mx-auto px-4 sm:px-8 py-8 sm:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Text Column -->
+        <div class="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left">
+          
+          <div id="hero-badge" class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-[4px] bg-gold/10 border border-gold text-[11px] sm:text-xs font-semibold text-gold uppercase tracking-[1px] mb-5 shadow-[0_0_15px_rgba(212,175,55,0.15)]">
+            <span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span>
+            <span>PAQUETE REVELADO: 5 LIBROS COMPLETOS POR SOLO .90 USD</span>
+          </div>
+
+          <h1 id="hero-title" class="font-cinzel text-3xl sm:text-4xl md:text-5xl lg:text-[44px] font-bold leading-[1.14] tracking-tight mb-6 gold-gradient-text">
+            Alinea tu Economía con los Principios Divinos y Rompe para Siempre la Escasez
+          </h1>
+
+          <p id="hero-text" class="text-base sm:text-lg text-slate-300 leading-[1.6] font-normal mb-6 max-w-2xl">
+            ¿Trabajas sin parar pero el dinero se escapa como arena entre tus manos? La Biblia contiene más de <strong class="text-gold">2.350 versículos sobre finanzas y mayordomía</strong>. Descubre las leyes espirituales inmutables para salir de deudas, activar la provisión del Reino y multiplicar tus recursos con paz duradera.
+          </p>
+
+          <div class="w-full max-w-xl p-4 rounded-[6px] bg-navy-card/80 border border-gold/30 mb-7 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+              <div class="text-xs text-slate-400 uppercase tracking-wider">Oferta de Lanzamiento Especial</div>
+              <div class="flex items-baseline gap-2 justify-center sm:justify-start">
+                <span class="line-through text-sm sm:text-base text-slate-500">De 7.00 USD</span>
+                <span class="text-2xl sm:text-3xl font-black text-gold font-cinzel">Por solo .90 USD</span>
+              </div>
+              <div class="text-[11px] text-emerald-400 font-semibold mt-0.5">
+                ✓ 5 Libros Digitales Incluidos (Acceso Inmediato de por vida)
+              </div>
+            </div>
+
+            <span class="px-3 py-1 rounded-[4px] bg-gold/20 border border-gold text-[11px] font-bold text-gold-light uppercase tracking-wide shrink-0">
+              85% de Descuento
+            </span>
+          </div>
+
+          <div id="hero-cta-group" class="w-full sm:w-auto flex flex-col sm:flex-row items-center gap-5 mb-8">
+            <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" id="hero-buy-btn" class="w-full sm:w-auto px-8 sm:px-10 py-4 sm:py-[18px] rounded-[8px] font-sans font-extrabold text-base sm:text-lg tracking-wider uppercase text-navy-deep gold-btn-gradient shadow-[0_10px_30px_rgba(212,175,55,0.35)] hover:shadow-[0_12px_45px_rgba(212,175,55,0.55)] active:scale-95 transition-all duration-300 flex items-center justify-center gap-3">
+              <span>¡QUIERO ENTENDER LA BIBLIA Y COMPRAR AHORA!</span>
+              <svg class="w-5 h-5 text-navy-deep shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+              </svg>
+            </a>
+
+            <div class="text-center sm:text-left text-xs text-slate-400">
+              <div class="text-gold text-sm tracking-widest font-bold">★ ★ ★ ★ ★</div>
+              <span class="font-medium">+ de 5.400 familias bendecidas</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-y-2 gap-x-5 text-xs text-slate-400">
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              Descarga Inmediata a tu Correo
+            </span>
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+              Pago 100% Blindado y Seguro
+            </span>
+            <span class="flex items-center gap-1.5">
+              <svg class="w-4 h-4 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              Garantía Incondicional de 7 Días
+            </span>
+          </div>
+        </div>
+
+        <!-- Image Mockup Column -->
+        <div id="hero-book-wrap" class="lg:col-span-5 flex justify-center items-center relative">
+          <div class="relative group w-full max-w-[420px]">
+            <div class="absolute inset-0 -m-6 bg-gradient-to-tr from-gold/25 via-navy-card/50 to-transparent rounded-2xl blur-3xl group-hover:scale-105 transition-transform duration-700"></div>
+            
+            <div class="relative z-10 rounded-[10px] overflow-hidden border border-gold/30 bg-[#040916] shadow-[0_20px_60px_rgba(0,0,0,0.85)] p-2 transition-transform duration-500 group-hover:-translate-y-2">
+              <img src="paquete-completo.svg" alt="Paquete Completo de Prosperidad Total" class="w-full h-auto object-cover rounded-[6px]" />
+
+              <div class="mt-2 py-2 px-3 bg-navy-card border-t border-gold/30 flex items-center justify-between text-xs">
+                <span class="font-cinzel font-bold text-gold-light">5 LIBROS INCLUIDOS</span>
+                <span class="font-bold text-gold text-sm font-cinzel">.90 USD</span>
+              </div>
+            </div>
+
+            <div class="absolute -top-3 -right-3 z-20 bg-gradient-to-r from-gold to-gold-dark text-navy-deep font-extrabold px-4 py-2 rounded-[8px] shadow-[0_10px_25px_rgba(0,0,0,0.7)] text-center border border-[#FFF6D1]">
+              <div class="text-[10px] uppercase tracking-wider font-bold">¡OFERTA HOY!</div>
+              <div class="text-[20px] font-cinzel font-black leading-tight">SOLO .90</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Barra de Principios Clave -->
+    <section class="bg-navy-card border-y border-gold/20 py-8 px-4 sm:px-8">
+      <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="flex flex-col items-center">
+          <div class="text-gold text-2xl mb-1.5">✧</div>
+          <div class="font-bold text-sm sm:text-base text-white mb-0.5">Sabiduría Práctica</div>
+          <div class="text-xs text-slate-400">Principios de Proverbios aplicados.</div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-gold text-2xl mb-1.5">⚔</div>
+          <div class="font-bold text-sm sm:text-base text-white mb-0.5">Ruptura de Deudas</div>
+          <div class="text-xs text-slate-400">Vence la mentalidad de escasez.</div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-gold text-2xl mb-1.5">🌱</div>
+          <div class="font-bold text-sm sm:text-base text-white mb-0.5">Ley de Siembra</div>
+          <div class="text-xs text-slate-400">Multiplicación y generosidad bíblica.</div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="text-gold text-2xl mb-1.5">👑</div>
+          <div class="font-bold text-sm sm:text-base text-white mb-0.5">Mayordomía Fiel</div>
+          <div class="text-xs text-slate-400">Administración con propósito eterno.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. La Verdad que Nadie te Enseñó -->
+    <section class="max-w-5xl mx-auto px-4 sm:px-8 py-20">
+      <div class="p-8 sm:p-12 rounded-[10px] bg-gradient-to-b from-navy-card to-[#0a132c] border border-gold/25 shadow-[0_20px_50px_rgba(0,0,0,0.5)] text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-gold/10 border border-gold text-[11px] font-semibold text-gold uppercase tracking-[1px] mb-4">
+          La Verdad que Nadie te Enseñó
+        </div>
+        <h2 class="font-cinzel text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
+          ¿Dios Quiere que Vivas Preocupado por el Dinero?
+        </h2>
+        <div class="w-20 h-0.5 bg-gold mx-auto mb-8"></div>
+        <div class="space-y-4 text-left text-sm sm:text-base text-slate-300 leading-relaxed max-w-3xl mx-auto">
+          <p>Muchos creyentes sinceros han sido educados creyendo que la pobreza es señal de santidad, o por el contrario, han caído en falsas promesas vacías. Sin embargo, la Escritura es tajante:</p>
+          <blockquote class="p-4 rounded-[6px] bg-navy-deep border-l-4 border-gold text-white italic font-cinzel text-base my-4 shadow-md">
+            &ldquo;El rico se enseñorea de los pobres, y el que toma prestado es siervo del que presta.&rdquo; — Proverbios 22:7
+          </blockquote>
+          <p>Dios no te llamó a ser siervo de los bancos o de la angustia al llegar fin de mes. Te llamó a ser un <strong class="text-gold">mayordomo fiel</strong>, un canal de bendición para tu hogar y tu comunidad.</p>
+          <p>Este paquete de <strong class="text-white">5 Libros de Finanzas Espirituales y Código Divino</strong> te entrega el mapa exacto, versículo por versículo, para ordenar tu economía de acuerdo con el diseño celestial.</p>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-gold/15 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" class="w-full sm:w-auto px-8 py-3.5 rounded-[6px] font-sans font-bold text-sm tracking-wider uppercase text-navy-deep gold-btn-gradient shadow-[0_4px_15px_rgba(212,175,55,0.3)] hover:brightness-105 active:scale-95 transition-all">
+            QUIERO ENTENDER LA BIBLIA - ACCEDER AHORA
+          </a>
+          <span class="text-xs text-slate-400">Solo $6.90 USD • 5 Libros Incluidos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Los 4 Pilares -->
+    <section id="pilares" class="max-w-6xl mx-auto px-4 sm:px-8 py-16">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-gold/10 border border-gold text-[11px] font-semibold text-gold uppercase tracking-[1px] mb-3">
+          Fundamentos Inquebrantables
+        </div>
+        <h2 class="font-cinzel text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Los 4 Pilares de la Prosperidad Bíblica
+        </h2>
+        <div class="w-24 h-0.5 bg-gold mx-auto mb-6"></div>
+        <p class="text-base text-slate-400 leading-relaxed">
+          Una estructura sólida para llevarte de la angustia de las cuentas pendientes a la paz de la provisión continua.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div class="pillar-card p-8 rounded-[8px] bg-navy-card border border-gold/20 hover:border-gold shadow-[0_10px_30px_rgba(0,0,0,0.4)] transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-[4px] bg-navy-deep border border-gold flex items-center justify-center mb-5 text-gold text-xl">✧</div>
+            <div class="text-[11px] font-mono font-bold tracking-widest text-gold uppercase mb-1">Pilar 01</div>
+            <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-white mb-3">Sabiduría Práctica & Presupuesto</h3>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">Aplica las instrucciones de Proverbios para blindar tus decisiones contra el impulso emocional y edificar un fondo de reserva para tu hogar.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gold/10 flex items-center justify-between text-xs text-slate-400">
+            <span class="italic">&ldquo;Porque Jehová da la sabiduría...&rdquo;</span>
+            <span class="text-gold font-semibold">Pr 2:6</span>
+          </div>
+        </div>
+
+        <div class="pillar-card p-8 rounded-[8px] bg-navy-card border border-gold/20 hover:border-gold shadow-[0_10px_30px_rgba(0,0,0,0.4)] transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-[4px] bg-navy-deep border border-gold flex items-center justify-center mb-5 text-gold text-xl">⚔</div>
+            <div class="text-[11px] font-mono font-bold tracking-widest text-gold uppercase mb-1">Pilar 02</div>
+            <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-white mb-3">Ruptura de Cadenas de Deuda</h3>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">Rompe patrones de endeudamiento crónico y culpa mediante la renovación de tu entendimiento financiero con la Palabra de Dios.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gold/10 flex items-center justify-between text-xs text-slate-400">
+            <span class="italic">&ldquo;Transformaos por medio de la renovación...&rdquo;</span>
+            <span class="text-gold font-semibold">Ro 12:2</span>
+          </div>
+        </div>
+
+        <div class="pillar-card p-8 rounded-[8px] bg-navy-card border border-gold/20 hover:border-gold shadow-[0_10px_30px_rgba(0,0,0,0.4)] transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-[4px] bg-navy-deep border border-gold flex items-center justify-center mb-5 text-gold text-xl">🌱</div>
+            <div class="text-[11px] font-mono font-bold tracking-widest text-gold uppercase mb-1">Pilar 03</div>
+            <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-white mb-3">Leyes de Siembra y Cosecha</h3>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">Comprende el principio espiritual de la cosecha y el poder liberador de honrar a Dios con rectitud y generosidad con propósito.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gold/10 flex items-center justify-between text-xs text-slate-400">
+            <span class="italic">&ldquo;El que siembra generosamente, segará...&rdquo;</span>
+            <span class="text-gold font-semibold">2Co 9:6</span>
+          </div>
+        </div>
+
+        <div class="pillar-card p-8 rounded-[8px] bg-navy-card border border-gold/20 hover:border-gold shadow-[0_10px_30px_rgba(0,0,0,0.4)] transition-all flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-[4px] bg-navy-deep border border-gold flex items-center justify-center mb-5 text-gold text-xl">👑</div>
+            <div class="text-[11px] font-mono font-bold tracking-widest text-gold uppercase mb-1">Pilar 04</div>
+            <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-white mb-3">Mayordomía Fiel y Multiplicación</h3>
+            <p class="text-slate-400 text-sm sm:text-base leading-relaxed">Multiplica tus talentos con excelencia, vive con transparencia intachable y construye un legado de bendición para tus hijos y nietos.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gold/10 flex items-center justify-between text-xs text-slate-400">
+            <span class="italic">&ldquo;Sobre poco has sido fiel, sobre mucho te pondré...&rdquo;</span>
+            <span class="text-gold font-semibold">Mt 25:21</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Desglose de los 5 Productos -->
+    <section id="productos" class="max-w-6xl mx-auto px-4 sm:px-8 py-20 bg-[#070D1F] border-y border-gold/15">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-gold/10 border border-gold text-[11px] font-semibold text-gold uppercase tracking-[1px] mb-3">
+          Todo Incluido en Tu Orden
+        </div>
+        <h2 class="font-cinzel text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          5 Libros Esenciales por Solo .90 USD
+        </h2>
+        <div class="w-24 h-0.5 bg-gold mx-auto mb-6"></div>
+        <p class="text-base text-slate-400">
+          Al adquirir hoy el producto principal de <strong class="text-gold">Finanzas Espirituales</strong>, recibirás de forma automática y gratuita los 4 bonos de transformación espiritual y familiar.
+        </p>
+      </div>
+
+      <!-- Producto Principal -->
+      <div class="mb-14 p-6 sm:p-10 rounded-[10px] bg-navy-card border-2 border-gold shadow-[0_15px_40px_rgba(0,0,0,0.6)]">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+          <div class="md:col-span-5 flex justify-center">
+            <div class="w-full max-w-[280px] p-2 bg-navy-deep rounded-[8px] border border-gold/50 shadow-2xl">
+              <img src="finanzas-espirituales.svg" alt="Finanzas Espirituales - Libro Principal" class="w-full h-auto object-contain rounded" />
+            </div>
+          </div>
+          <div class="md:col-span-7">
+            <div class="inline-block px-3 py-1 rounded bg-gold text-navy-deep text-[11px] font-black uppercase tracking-wider mb-3">
+              ★ PRODUCTO PRINCIPAL ★
+            </div>
+            <h3 class="font-cinzel text-2xl sm:text-3xl font-bold text-white mb-3">
+              Finanzas Espirituales: Principios Bíblicos para una Vida Financiera Abundante
+            </h3>
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed mb-4">
+              El manual definitivo para ordenar tus ingresos, pagar deudas sin angustia, erradicar la mentalidad de escasez y convertir tu economía en un testimonio viviente del favor de Dios.
+            </p>
+            <div class="flex flex-wrap items-center gap-4 text-xs text-slate-300">
+              <span class="text-gold font-semibold">✓ Más de 180 páginas de contenido práctico</span>
+              <span class="text-gold font-semibold">✓ Formato PDF compatible con cualquier teléfono o PC</span>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gold/20 flex items-center justify-between">
+              <span class="text-xs uppercase text-slate-400 tracking-wider">Valor Comercial Individual:</span>
+              <span class="font-cinzel font-bold text-lg text-gold">7.00 USD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Bonos -->
+      <div class="text-center mb-8">
+        <h3 class="font-cinzel text-2xl sm:text-3xl font-bold text-gold-light">
+          + Tus 4 Bonos Exclusivos (100% Gratis Hoy)
+        </h3>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">
+          Diseñados para complementar tu edificación espiritual, de oración y de convivencia familiar.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
+          <div>
+            <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
+              <img src="bono-codigo-divino.svg" alt="Bono 1 - Código Divino" class="w-full h-full object-contain" />
+            </div>
+            <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #1 • EDICIÓN DIGITAL</div>
+            <h4 class="font-cinzel text-lg font-bold text-white mb-2">Código Divino: Claves Ocultas para la Abundancia</h4>
+            <p class="text-xs text-slate-400 leading-relaxed">Descubre las llaves bíblicas ocultas para abrir puertas financieras cerradas y vencer temores económicos.</p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gold/15 flex items-center justify-between text-xs">
+            <span class="line-through text-slate-500">9.00 USD</span>
+            <span class="font-bold text-emerald-400 uppercase">¡HOY GRATIS!</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
+          <div>
+            <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
+              <img src="bono-oracion.svg" alt="Bono 2 - 30 Días de Oración" class="w-full h-full object-contain" />
+            </div>
+            <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #2 • DEVOCIONAL</div>
+            <h4 class="font-cinzel text-lg font-bold text-white mb-2">30 Días de Oración con Versículos del Pentateuco</h4>
+            <p class="text-xs text-slate-400 leading-relaxed">Una guía diaria de intercesión basada en Génesis a Deuteronomio para clamar con autoridad por provisión.</p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gold/15 flex items-center justify-between text-xs">
+            <span class="line-through text-slate-500">5.00 USD</span>
+            <span class="font-bold text-emerald-400 uppercase">¡HOY GRATIS!</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
+          <div>
+            <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
+              <img src="bono-devocionales.svg" alt="Bono 3 - Devocionales de Poder" class="w-full h-full object-contain" />
+            </div>
+            <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #3 • CRECIMIENTO DIARIO</div>
+            <h4 class="font-cinzel text-lg font-bold text-white mb-2">Devocionales de Poder: 30 Días para Profundizar</h4>
+            <p class="text-xs text-slate-400 leading-relaxed">Reflexiones de alto impacto para nutrir tu fe matutina y mantener el enfoque en las promesas de Dios.</p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gold/15 flex items-center justify-between text-xs">
+            <span class="line-through text-slate-500">7.00 USD</span>
+            <span class="font-bold text-emerald-400 uppercase">¡HOY GRATIS!</span>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/25 flex flex-col justify-between hover:border-gold transition-all">
+          <div>
+            <div class="w-full h-[220px] rounded-[6px] overflow-hidden bg-navy-deep p-2 border border-gold/30 mb-4 flex items-center justify-center">
+              <img src="bono-historias.svg" alt="Bono 4 - Historias Bíblicas" class="w-full h-full object-contain" />
+            </div>
+            <div class="text-[10px] font-bold text-gold uppercase tracking-wider mb-1">BONO #4 • LECTURA FAMILIAR</div>
+            <h4 class="font-cinzel text-lg font-bold text-white mb-2">Historias Bíblicas para Toda la Familia</h4>
+            <p class="text-xs text-slate-400 leading-relaxed">Relatos cautivadores y edificantes para compartir con tus hijos o nietos, inculcando principios morales y fe.</p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-gold/15 flex items-center justify-between text-xs">
+            <span class="line-through text-slate-500">9.00 USD</span>
+            <span class="font-bold text-emerald-400 uppercase">¡HOY GRATIS!</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resumen Valor Total -->
+      <div class="mt-12 p-6 rounded-[8px] bg-navy-deep border border-gold text-center max-w-2xl mx-auto">
+        <div class="text-xs text-slate-400 uppercase tracking-widest">Valor Total de los 5 Libros por Separado:</div>
+        <div class="text-2xl font-bold line-through text-red-500 my-1">17.00 USD</div>
+        <div class="text-sm font-semibold text-slate-300">Hoy adquieres todo el paquete completo por solo:</div>
+        <div class="text-4xl sm:text-5xl font-black text-gold font-cinzel my-2">.90 USD</div>
+        <a href="#oferta" class="inline-block mt-3 px-8 py-3.5 rounded-[6px] font-sans font-extrabold text-sm uppercase tracking-wider text-navy-deep gold-btn-gradient shadow-lg hover:scale-105 active:scale-95 transition-all">
+          QUIERO EL PAQUETE COMPLETO POR .90 USD
+        </a>
+      </div>
+    </section>
+
+    <!-- 7. Testimonios -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-8 py-20">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-[4px] bg-gold/10 border border-gold text-[11px] font-semibold text-gold uppercase tracking-[1px] mb-3">
+          Testimonios Reales
+        </div>
+        <h2 class="font-cinzel text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Familias que Rompieron la Escasez
+        </h2>
+        <div class="w-24 h-0.5 bg-gold mx-auto mb-6"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/20 flex flex-col justify-between">
+          <div>
+            <div class="text-gold text-sm mb-3">★ ★ ★ ★ ★</div>
+            <p class="text-sm text-slate-300 leading-relaxed italic mb-4">
+              &ldquo;Llevábamos 4 años pagando mínimos de tarjetas y sintiéndonos culpables. El libro de Finanzas Espirituales y el bono de oración nos dieron la claridad que ninguna asesoría bancaria nos había dado. En 6 meses eliminamos dos deudas grandes.&rdquo;
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/10 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-gold/20 border border-gold flex items-center justify-center text-xs font-bold text-gold">CR</div>
+            <div>
+              <div class="text-xs font-bold text-white">Carlos & Raquel M.</div>
+              <div class="text-[11px] text-slate-400">Bogotá, Colombia</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/20 flex flex-col justify-between">
+          <div>
+            <div class="text-gold text-sm mb-3">★ ★ ★ ★ ★</div>
+            <p class="text-sm text-slate-300 leading-relaxed italic mb-4">
+              &ldquo;Por solo .90 pensé que sería algo muy básico, pero la profundidad bíblica y los 4 bonos son oro puro. Las historias para la familia las leo todas las noches con mis hijos pequeños. Ha sido una bendición inmensa.&rdquo;
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/10 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-gold/20 border border-gold flex items-center justify-center text-xs font-bold text-gold">EA</div>
+            <div>
+              <div class="text-xs font-bold text-white">Esteban Álvarez</div>
+              <div class="text-[11px] text-slate-400">Guadalajara, México</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-6 rounded-[8px] bg-navy-card border border-gold/20 flex flex-col justify-between">
+          <div>
+            <div class="text-gold text-sm mb-3">★ ★ ★ ★ ★</div>
+            <p class="text-sm text-slate-300 leading-relaxed italic mb-4">
+              &ldquo;El principio de mayordomía fiel me abrió los ojos sobre cómo administrar el negocio. Dejé de angustiarme y empecé a honrar a Dios con orden y rectitud. Hoy tenemos paz en nuestro matrimonio y finanzas en orden.&rdquo;
+            </p>
+          </div>
+          <div class="pt-3 border-t border-gold/10 flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-gold/20 border border-gold flex items-center justify-center text-xs font-bold text-gold">MS</div>
+            <div>
+              <div class="text-xs font-bold text-white">Miriam Santos</div>
+              <div class="text-[11px] text-slate-400">Lima, Perú</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Sección Oferta (El Checkout Box) -->
+    <section id="oferta" class="max-w-4xl mx-auto px-4 sm:px-8 py-20">
+      <div class="p-8 sm:p-12 rounded-[12px] bg-navy-card border-2 border-gold shadow-[0_20px_60px_rgba(0,0,0,0.7)] relative text-center">
+        
+        <div class="inline-flex items-center gap-2 px-5 py-2 rounded-[4px] bg-gold text-navy-deep font-black text-xs uppercase tracking-[2px] -mt-16 mb-8 shadow-lg">
+          ★ OFERTA EXCLUSIVA: 5 LIBROS POR .90 USD ★
+        </div>
+
+        <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white mb-3">
+          Descarga Inmediata del Paquete Completo
+        </h2>
+        <p class="text-sm sm:text-base text-slate-400 max-w-xl mx-auto mb-8">
+          Recibe acceso vitalicio e inmediato a los <strong class="text-gold">5 Libros Digitales</strong> en tu correo electrónico segundos después de completar tu pago seguro.
+        </p>
+
+        <div class="bg-navy-deep rounded-[8px] p-6 sm:p-8 border border-gold/25 max-w-2xl mx-auto mb-8 text-left">
+          <h4 class="text-xs uppercase tracking-[1px] text-gold font-bold mb-4">Lo que recibirás inmediatamente hoy:</h4>
+          <ul class="space-y-3 text-sm sm:text-base text-slate-300">
+            <li class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-[4px] bg-gold/20 border border-gold flex items-center justify-center shrink-0 mt-0.5 text-gold text-xs font-bold">✓</div>
+              <span><strong class="text-white">Libro Principal: Finanzas Espirituales</strong> (Valor 7 USD)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-[4px] bg-gold/20 border border-gold flex items-center justify-center shrink-0 mt-0.5 text-gold text-xs font-bold">✓</div>
+              <span><strong class="text-white">Bono #1: Código Divino - Claves Ocultas</strong> (Valor 9 USD)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-[4px] bg-gold/20 border border-gold flex items-center justify-center shrink-0 mt-0.5 text-gold text-xs font-bold">✓</div>
+              <span><strong class="text-white">Bono #2: 30 Días de Oración con el Pentateuco</strong> (Valor 5 USD)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-[4px] bg-gold/20 border border-gold flex items-center justify-center shrink-0 mt-0.5 text-gold text-xs font-bold">✓</div>
+              <span><strong class="text-white">Bono #3: Devocionales de Poder</strong> (Valor 7 USD)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <div class="w-5 h-5 rounded-[4px] bg-gold/20 border border-gold flex items-center justify-center shrink-0 mt-0.5 text-gold text-xs font-bold">✓</div>
+              <span><strong class="text-white">Bono #4: Historias Bíblicas para la Familia</strong> (Valor 9 USD)</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mb-8">
+          <div class="text-slate-400 line-through text-lg sm:text-xl font-medium">Precio Normal: 7.00 USD</div>
+          <div class="text-xs uppercase tracking-wider text-gold font-semibold mt-1">Precio Especial de Lanzamiento:</div>
+          <div class="flex items-baseline justify-center gap-1.5 my-2">
+            <span class="text-3xl sm:text-4xl font-bold text-gold">$</span>
+            <span class="font-cinzel text-6xl sm:text-7xl font-black text-gold tracking-tight">6.90</span>
+            <span class="text-base sm:text-lg font-bold text-slate-400 ml-1">USD</span>
+          </div>
+          <div class="text-xs sm:text-sm text-emerald-400 font-bold">
+            ✓ Pago único • Sin cuotas ni suscripciones mensuales
+          </div>
+        </div>
+
+        <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" class="w-full max-w-lg mx-auto py-4 sm:py-5 px-8 rounded-[8px] font-sans font-black text-base sm:text-xl tracking-wider uppercase text-navy-deep gold-btn-gradient shadow-[0_10px_35px_rgba(212,175,55,0.4)] hover:shadow-[0_15px_50px_rgba(212,175,55,0.6)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 block text-center">
+          ¡SÍ! QUIERO ENTENDER LA BIBLIA Y COMPRAR AHORA
+        </a>
+
+        <div class="mt-4 flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400">
+          <span>🔒 Encriptación SSL 256-Bit</span>
+          <span>•</span>
+          <span>⚡ Acceso Inmediato a tu Email</span>
+          <span>•</span>
+          <span>📱 Compatible con Celular y PC</span>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-gold/15 max-w-xl mx-auto flex flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
+          <div class="w-16 h-16 rounded-[6px] bg-navy-deep border-2 border-gold flex flex-col items-center justify-center shrink-0 shadow-[0_0_20px_rgba(212,175,55,0.25)]">
+            <span class="font-cinzel text-2xl font-black text-gold">7</span>
+            <span class="text-[9px] font-bold text-gold uppercase tracking-wider -mt-1">DÍAS</span>
+          </div>
+          <div>
+            <h4 class="font-cinzel text-base font-bold text-gold mb-1">Garantía Incondicional de Satisfacción Total</h4>
+            <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+              Tienes 7 días completos para descargar, leer y aplicar los principios. Si por cualquier motivo sientes que este material no superó tus expectativas, solicita el reembolso y te devolveremos el 100% de tu dinero sin preguntas.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-8 py-16">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h3 class="font-cinzel text-2xl sm:text-3xl font-bold text-white mb-3">Preguntas Frecuentes</h3>
+        <p class="text-xs sm:text-sm text-slate-400">Respuestas claras sobre la entrega y el material.</p>
+      </div>
+
+      <div class="space-y-4">
+        <div class="p-5 rounded-[8px] bg-navy-card border border-gold/20">
+          <h4 class="font-bold text-sm sm:text-base text-gold-light mb-2">¿Cómo recibiré los 5 libros tras comprar?</h4>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Inmediatamente después de confirmarse tu pago de .90 USD, recibirás un correo electrónico con tu enlace de descarga directa para guardarlos en tu celular, tablet o PC.</p>
+        </div>
+
+        <div class="p-5 rounded-[8px] bg-navy-card border border-gold/20">
+          <h4 class="font-bold text-sm sm:text-base text-gold-light mb-2">¿Por qué el precio es tan accesible (.90 USD)?</h4>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Nuestra misión principal es que ninguna familia se quede sin acceso a esta revelación bíblica por motivos económicos. Queremos que el precio sea completamente asequible.</p>
+        </div>
+
+        <div class="p-5 rounded-[8px] bg-navy-card border border-gold/20">
+          <h4 class="font-bold text-sm sm:text-base text-gold-light mb-2">¿Es un pago único o me cobrarán cada mes?</h4>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Es un pago único y definitivo de .90 USD. No hay mensualidades ni cobros ocultos jamás.</p>
+        </div>
+
+        <div class="p-5 rounded-[8px] bg-navy-card border border-gold/20">
+          <h4 class="font-bold text-sm sm:text-base text-gold-light mb-2">¿Qué métodos de pago están disponibles?</h4>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Tarjetas de crédito y débito internacionales, PayPal y medios de pago locales seguros según tu país.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" class="px-8 py-3.5 rounded-[6px] font-sans font-bold text-sm uppercase tracking-wider text-navy-deep gold-btn-gradient shadow-md hover:brightness-105 active:scale-95 transition-all inline-block">
+          QUIERO ENTENDER LA BIBLIA - COMPRAR AHORA POR $6.90 USD
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Bottom Conversion Bar -->
+  <div id="sticky-bar" class="fixed bottom-0 left-0 right-0 z-40 bg-navy-deep/95 backdrop-blur-md border-t border-gold/40 p-3 sm:p-4 shadow-[0_-5px_25px_rgba(0,0,0,0.8)] hidden">
+    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-3 text-center sm:text-left">
+        <div class="hidden sm:block text-2xl text-gold">📖</div>
+        <div>
+          <div class="font-cinzel font-bold text-xs sm:text-sm text-white">Paquete Completo de 5 Libros de Prosperidad Bíblica</div>
+          <div class="text-[11px] text-slate-400">De <span class="line-through">7.00</span> por solo <strong class="text-gold">.90 USD</strong> (Acceso Inmediato)</div>
+        </div>
+      </div>
+      <a href="https://pay.hotmart.com/D106784212B?checkoutMode=10" class="w-full sm:w-auto px-6 py-2.5 sm:py-3 rounded-[6px] font-sans font-extrabold text-xs sm:text-sm uppercase tracking-wider text-navy-deep gold-btn-gradient shadow-[0_4px_15px_rgba(212,175,55,0.4)] hover:brightness-105 active:scale-95 transition-all shrink-0 text-center">
+        COMPRAR AHORA POR $6.90 USD
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer (Sin Autor) -->
+  <footer class="bg-navy-deep border-t border-white/5 py-12 px-4 sm:px-8 relative z-10">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-white/5">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-[4px] bg-gradient-to-br from-gold to-gold-dark flex items-center justify-center text-navy-deep font-bold">†</div>
+          <span class="font-cinzel font-bold tracking-[2px] text-sm sm:text-base text-gold">FINANZAS ESPIRITUALES</span>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-6 text-[11px] text-slate-500">
+          <a href="#" onclick="openModal('termos'); return false;" class="hover:text-gold transition-colors">Términos de Uso</a>
+          <a href="#" onclick="openModal('privacidad'); return false;" class="hover:text-gold transition-colors">Políticas de Privacidad</a>
+          <a href="#" onclick="openModal('contacto'); return false;" class="hover:text-gold transition-colors">Contacto & Soporte</a>
+          <span>© 2025 Finanzas Espirituales. Todos los derechos reservados.</span>
+        </div>
+      </div>
+
+      <div class="pt-6 text-[10px] text-slate-600 leading-relaxed space-y-2 text-justify sm:text-center max-w-4xl mx-auto">
+        <p>AVISO LEGAL: Los resultados espirituales y financieros pueden variar de acuerdo con la aplicación personal y disciplina de cada individuo. Este material es de carácter estrictamente educativo y de orientación bíblica.</p>
+        <p>Este sitio web no forma parte de Meta Platforms, Inc., Facebook o Instagram.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Checkout -->
+  <div id="checkout-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-sm hidden">
+    <div class="bg-navy-card border-2 border-gold rounded-[10px] max-w-md w-full p-6 sm:p-8 max-h-[90vh] overflow-y-auto text-left shadow-[0_25px_60px_rgba(0,0,0,0.9)] relative">
+      <button onclick="closeModal('checkout-modal')" class="absolute top-4 right-4 w-8 h-8 rounded-[4px] bg-navy-deep border border-gold/40 text-gold hover:bg-gold hover:text-navy-deep flex items-center justify-center transition-colors">✕</button>
+
+      <div id="checkout-form-view">
+        <div class="text-center mb-6">
+          <div class="inline-block px-3 py-1 rounded bg-gold/10 border border-gold text-[10px] font-bold text-gold uppercase tracking-wider mb-2">Acceso Seguro Inmediato</div>
+          <h3 class="font-cinzel text-xl sm:text-2xl font-bold text-white">Finaliza tu Orden Segura</h3>
+          <p class="text-xs text-slate-400 mt-1">Recibirás los 5 Libros Digitales de inmediato en tu correo.</p>
+        </div>
+
+        <div class="p-3.5 rounded-[6px] bg-navy-deep border border-gold/30 mb-5 text-xs">
+          <div class="flex justify-between font-bold text-white mb-1">
+            <span>Paquete 5 Libros de Prosperidad Total</span>
+            <span class="text-gold">.90 USD</span>
+          </div>
+          <div class="text-[11px] text-emerald-400">✓ Incluye Finanzas Espirituales + 4 Bonos de Regalo</div>
+        </div>
+
+        <form onsubmit="handleCheckoutSubmit(event)" class="space-y-4 text-xs">
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Nombre Completo</label>
+            <input type="text" required placeholder="Ej. Juan Pérez" id="buyer-name-input" class="w-full px-3.5 py-2.5 rounded-[4px] bg-navy-deep border border-gold/40 text-white placeholder-slate-500 focus:outline-none focus:border-gold" />
+          </div>
+          <div>
+            <label class="block text-slate-300 font-semibold mb-1">Correo Electrónico (Donde recibirás los libros)</label>
+            <input type="email" required placeholder="tu-correo@ejemplo.com" id="buyer-email-input" class="w-full px-3.5 py-2.5 rounded-[4px] bg-navy-deep border border-gold/40 text-white placeholder-slate-500 focus:outline-none focus:border-gold" />
+          </div>
+          <button type="submit" class="w-full py-3.5 px-6 rounded-[6px] font-sans font-black text-sm uppercase tracking-wider text-navy-deep gold-btn-gradient shadow-lg hover:brightness-105 active:scale-95 transition-all mt-2">
+            CONFIRMAR Y DESCARGAR POR .90 USD
+          </button>
+        </form>
+
+        <div class="mt-4 pt-4 border-t border-gold/15 text-center text-[10px] text-slate-400 space-y-1">
+          <div>🔒 Pasarela encriptada SSL 256-bit • 🛡️ Garantía Incondicional de 7 Días</div>
+        </div>
+      </div>
+
+      <div id="checkout-success-view" class="hidden text-center py-4">
+        <div class="w-16 h-16 rounded-full bg-emerald-500/20 border-2 border-emerald-500 text-emerald-400 text-3xl flex items-center justify-center mx-auto mb-4 font-bold">✓</div>
+        <h3 class="font-cinzel text-2xl font-bold text-white mb-2">¡Felicidades!</h3>
+        <p class="text-sm text-slate-300 mb-4">Tu acceso al <strong class="text-gold">Paquete Completo de 5 Libros</strong> ha sido enviado a tu correo.</p>
+        <button onclick="closeModal('checkout-modal')" class="px-6 py-2.5 rounded-[4px] bg-gold text-navy-deep font-bold text-xs uppercase tracking-wider hover:brightness-105">Cerrar Ventana</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Sticky bar reveal on scroll
+    window.addEventListener('scroll', () => {
+      const bar = document.getElementById('sticky-bar');
+      if (window.scrollY > 450) {
+        bar.classList.remove('hidden');
+      } else {
+        bar.classList.add('hidden');
+      }
+    });
+
+    const HOTMART_CHECKOUT_URL = 'https://pay.hotmart.com/D106784212B?checkoutMode=10';
+
+    function openCheckoutModal() {
+      window.location.href = HOTMART_CHECKOUT_URL;
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.add('hidden');
+    }
+
+    function handleCheckoutSubmit(e) {
+      e.preventDefault();
+      document.getElementById('checkout-form-view').classList.add('hidden');
+      document.getElementById('checkout-success-view').classList.remove('hidden');
+    }
+
+    // GSAP ScrollTrigger Animations
+    window.addEventListener('DOMContentLoaded', () => {
+      if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.from('#hero-badge', { opacity: 0, y: -20, duration: 0.8, ease: 'power2.out' });
+        gsap.from('#hero-title', { opacity: 0, y: 30, duration: 1, delay: 0.2, ease: 'power3.out' });
+        gsap.from('#hero-text', { opacity: 0, y: 25, duration: 1, delay: 0.4, ease: 'power3.out' });
+        gsap.from('#hero-cta-group', { opacity: 0, scale: 0.95, duration: 0.8, delay: 0.6, ease: 'back.out(1.5)' });
+        gsap.from('#hero-book-wrap', { opacity: 0, x: 50, duration: 1.2, delay: 0.3, ease: 'power2.out' });
+      }
+    });
+  </script>
+</body>
+</html>

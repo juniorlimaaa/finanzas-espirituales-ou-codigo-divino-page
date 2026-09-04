@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="b2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D29752" />
+      <stop offset="50%" stop-color="#A66D2D" />
+      <stop offset="100%" stop-color="#653E12" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="560" rx="12" fill="url(#b2-bg)" stroke="#45290A" stroke-width="3" />
+  <rect x="16" y="16" width="368" height="528" rx="6" fill="none" stroke="#FFECC2" stroke-width="2" />
+  
+  <text x="200" y="90" font-family="'Cinzel', serif" font-size="36" font-weight="900" fill="#2A1703" text-anchor="middle">30 DÍAS</text>
+  <text x="200" y="120" font-family="'Cinzel', serif" font-size="16" font-weight="bold" fill="#2A1703" text-anchor="middle">DE</text>
+  <text x="200" y="160" font-family="'Cinzel', serif" font-size="32" font-weight="900" fill="#2A1703" text-anchor="middle">ORACIÓN</text>
+  <text x="200" y="190" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#2A1703" text-anchor="middle">CON VERSÍCULOS DEL PENTATEUCO</text>
+
+  <!-- Desert Sunrise & Altar -->
+  <circle cx="200" cy="340" r="80" fill="#FFE8A3" opacity="0.7" />
+  <path d="M0,370 Q200,320 400,370 L400,560 L0,560 Z" fill="#7A4414" />
+  <path d="M0,420 Q200,380 400,420 L400,560 L0,560 Z" fill="#472506" />
+  <!-- Altar of Incense -->
+  <rect x="150" y="370" width="100" height="65" rx="3" fill="#2D1602" stroke="#FFE8A3" stroke-width="2" />
+  <path d="M135,370 L265,370 L250,355 L150,355 Z" fill="#FFE8A3" />
+  <path d="M200,310 Q215,335 200,350 Q185,335 200,310 Z" fill="#FFD700" />
+
+  <rect x="80" y="480" width="240" height="34" rx="17" fill="#200F01" stroke="#FFE8A3" stroke-width="1.5" />
+  <text x="200" y="502" font-family="'Cinzel', serif" font-size="12" font-weight="bold" fill="#FFE8A3" text-anchor="middle" letter-spacing="2">VALOR: 5.00 USD • HOY GRATIS</text>
+</svg>

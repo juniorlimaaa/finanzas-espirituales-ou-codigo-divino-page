@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="b4-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3D1" />
+      <stop offset="50%" stop-color="#FFEBB0" />
+      <stop offset="100%" stop-color="#E8CD8A" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="560" rx="12" fill="url(#b4-bg)" stroke="#9B7E3E" stroke-width="3" />
+  <rect x="16" y="16" width="368" height="528" rx="6" fill="none" stroke="#5C4517" stroke-width="2" />
+
+  <text x="200" y="85" font-family="'Cinzel', serif" font-size="30" font-weight="900" fill="#1B3739" text-anchor="middle" letter-spacing="2">HISTORIAS</text>
+  <text x="200" y="125" font-family="'Cinzel', serif" font-size="32" font-weight="900" fill="#112527" text-anchor="middle" letter-spacing="2">BÍBLICAS</text>
+  <text x="200" y="155" font-family="'Inter', sans-serif" font-size="13" font-weight="bold" fill="#3D5E61" text-anchor="middle">PARA TODA LA FAMILIA</text>
+
+  <!-- Rainbow -->
+  <g transform="translate(200, 270)">
+    <path d="M-120,0 A120,120 0 0,1 120,0" fill="none" stroke="#E55959" stroke-width="8" />
+    <path d="M-112,0 A112,112 0 0,1 112,0" fill="none" stroke="#F5A623" stroke-width="8" />
+    <path d="M-104,0 A104,104 0 0,1 104,0" fill="none" stroke="#F8E71C" stroke-width="8" />
+    <path d="M-96,0 A96,96 0 0,1 96,0" fill="none" stroke="#7ED321" stroke-width="8" />
+    <path d="M-88,0 A88,88 0 0,1 88,0" fill="none" stroke="#50E3C2" stroke-width="8" />
+    <path d="M-80,0 A80,80 0 0,1 80,0" fill="none" stroke="#4A90E2" stroke-width="8" />
+  </g>
+
+  <!-- Family -->
+  <g transform="translate(200, 350)">
+    <ellipse cx="0" cy="80" rx="140" ry="40" fill="#94CE89" />
+    <!-- Father -->
+    <circle cx="-55" cy="-10" r="20" fill="#3C5D77" />
+    <rect x="-75" y="10" width="40" height="45" rx="12" fill="#3C5D77" />
+    <!-- Mother -->
+    <circle cx="55" cy="-8" r="19" fill="#8A3C4B" />
+    <rect x="35" y="11" width="40" height="42" rx="12" fill="#8A3C4B" />
+    <!-- Child -->
+    <circle cx="0" cy="10" r="15" fill="#DC9F42" />
+    <rect x="-16" y="25" width="32" height="32" rx="8" fill="#DC9F42" />
+    <!-- Bible -->
+    <path d="M-28,42 L0,48 L28,42 L20,58 L0,64 L-20,58 Z" fill="#1B3739" stroke="#FFF" stroke-width="1.5" />
+  </g>
+
+  <rect x="80" y="480" width="240" height="34" rx="17" fill="#2C210C" stroke="#FFEBB0" stroke-width="1.5" />
+  <text x="200" y="502" font-family="'Cinzel', serif" font-size="12" font-weight="bold" fill="#FFEBB0" text-anchor="middle" letter-spacing="2">VALOR: 9.00 USD • HOY GRATIS</text>
+</svg>

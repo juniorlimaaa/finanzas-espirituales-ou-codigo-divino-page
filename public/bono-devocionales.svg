@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="b3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#183B46" />
+      <stop offset="50%" stop-color="#0F252C" />
+      <stop offset="100%" stop-color="#071317" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="560" rx="12" fill="url(#b3-bg)" stroke="#061114" stroke-width="3" />
+  <rect x="16" y="16" width="368" height="528" rx="6" fill="none" stroke="#6DE0D6" stroke-width="2" opacity="0.8" />
+
+  <text x="200" y="100" font-family="'Cinzel', serif" font-size="26" font-weight="bold" fill="#A4F5EE" text-anchor="middle" letter-spacing="2">DEVOCIONALES</text>
+  <text x="200" y="140" font-family="'Cinzel', serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">- DE PODER -</text>
+  <text x="200" y="170" font-family="'Inter', sans-serif" font-size="13" fill="#6DE0D6" text-anchor="middle">30 Días para Profundizar</text>
+
+  <!-- Shining Star -->
+  <g transform="translate(200, 240)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF" />
+    <path d="M0,-35 L0,35 M-35,0 L35,0 M-20,-20 L20,20 M-20,20 L20,-20" stroke="#A4F5EE" stroke-width="2" />
+  </g>
+
+  <!-- Mountain Peaks -->
+  <path d="M40,460 L130,340 L220,460 Z" fill="#0A1A1F" stroke="#3FA69C" stroke-width="1" />
+  <path d="M170,460 L260,320 L350,460 Z" fill="#15323B" stroke="#6DE0D6" stroke-width="1" />
+  <path d="M100,460 L200,280 L300,460 Z" fill="#224C57" stroke="#A4F5EE" stroke-width="2" />
+  <path d="M200,280 L180,315 L200,310 L220,315 Z" fill="#FFFFFF" />
+
+  <rect x="80" y="480" width="240" height="34" rx="17" fill="#061114" stroke="#6DE0D6" stroke-width="1.5" />
+  <text x="200" y="502" font-family="'Cinzel', serif" font-size="12" font-weight="bold" fill="#A4F5EE" text-anchor="middle" letter-spacing="2">VALOR: 7.00 USD • HOY GRATIS</text>
+</svg>
